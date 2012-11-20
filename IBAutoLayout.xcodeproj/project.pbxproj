@@ -28,10 +28,10 @@
 		048B083415F8F2EA00C16519 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048B083315F8F2EA00C16519 /* MapKit.framework */; };
 		04A09CE5160A28D2004A5E0F /* PRViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A09CE4160A28D2004A5E0F /* PRViewController1.m */; };
 		04A4871515FF348A00ACD612 /* DbViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4871315FF348A00ACD612 /* DbViewController1.m */; };
-		04A4871F15FF48E700ACD612 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4871D15FF48E700ACD612 /* MenuViewController.m */; };
-		04A4872015FF48E700ACD612 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4871E15FF48E700ACD612 /* MenuViewController.xib */; };
 		04C0E85A1612F88F00BF88A2 /* VFLMetricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */; };
 		04C0E85E1612FE4A00BF88A2 /* InstrumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */; };
+		2165E4B1165A5F900088F757 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2165E4AF165A5F900088F757 /* MasterViewController.m */; };
+		2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2165E4B0165A5F900088F757 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,13 +69,13 @@
 		04A09CE4160A28D2004A5E0F /* PRViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRViewController1.m; sourceTree = "<group>"; };
 		04A4871215FF348A00ACD612 /* DbViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbViewController1.h; sourceTree = "<group>"; };
 		04A4871315FF348A00ACD612 /* DbViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbViewController1.m; sourceTree = "<group>"; };
-		04A4871C15FF48E700ACD612 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		04A4871D15FF48E700ACD612 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		04A4871E15FF48E700ACD612 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		04C0E8581612F88F00BF88A2 /* VFLMetricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLMetricsViewController.h; sourceTree = "<group>"; };
 		04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLMetricsViewController.m; sourceTree = "<group>"; };
 		04C0E85C1612FE4A00BF88A2 /* InstrumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentsViewController.h; sourceTree = "<group>"; };
 		04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentsViewController.m; sourceTree = "<group>"; };
+		2165E4AE165A5F900088F757 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2165E4AF165A5F900088F757 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2165E4B0165A5F900088F757 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,20 +140,20 @@
 				0459C9B31603824B00116409 /* VFLViewController1.m */,
 				04666E11160B1F9300192BA1 /* VFLViewController2.h */,
 				04666E12160B1F9300192BA1 /* VFLViewController2.m */,
+				0459C9B5160492EF00116409 /* VFLViewController3.h */,
+				0459C9B6160492EF00116409 /* VFLViewController3.m */,
 				04C0E8581612F88F00BF88A2 /* VFLMetricsViewController.h */,
 				04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */,
 				04C0E85C1612FE4A00BF88A2 /* InstrumentsViewController.h */,
 				04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */,
-				0459C9B5160492EF00116409 /* VFLViewController3.h */,
-				0459C9B6160492EF00116409 /* VFLViewController3.m */,
 				04A4871215FF348A00ACD612 /* DbViewController1.h */,
 				04A4871315FF348A00ACD612 /* DbViewController1.m */,
 				043366A8161B67F100E13121 /* HugcompViewController.h */,
 				043366A9161B67F100E13121 /* HugcompViewController.m */,
 				043366AA161B67F200E13121 /* HugcompViewController.xib */,
-				04A4871C15FF48E700ACD612 /* MenuViewController.h */,
-				04A4871D15FF48E700ACD612 /* MenuViewController.m */,
-				04A4871E15FF48E700ACD612 /* MenuViewController.xib */,
+				2165E4AE165A5F900088F757 /* MasterViewController.h */,
+				2165E4AF165A5F900088F757 /* MasterViewController.m */,
+				2165E4B0165A5F900088F757 /* MasterViewController.xib */,
 				048B082015F8E6A400C16519 /* AppDelegate.h */,
 				048B082115F8E6A400C16519 /* AppDelegate.m */,
 				048B081815F8E6A400C16519 /* Supporting Files */,
@@ -226,10 +226,10 @@
 				048B081C15F8E6A400C16519 /* InfoPlist.strings in Resources */,
 				048B082815F8E6A400C16519 /* IBViewController1.xib in Resources */,
 				048B083215F8E6BB00C16519 /* IBViewController2.xib in Resources */,
-				04A4872015FF48E700ACD612 /* MenuViewController.xib in Resources */,
 				0484D2121601FF7D00AC508E /* Default-568h@2x.png in Resources */,
 				0459C9B116032DA400116409 /* PRViewController2.xib in Resources */,
 				043366AC161B693800E13121 /* HugcompViewController.xib in Resources */,
+				2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,6 @@
 				048B082515F8E6A400C16519 /* IBViewController1.m in Sources */,
 				048B083115F8E6BB00C16519 /* IBViewController2.m in Sources */,
 				04A4871515FF348A00ACD612 /* DbViewController1.m in Sources */,
-				04A4871F15FF48E700ACD612 /* MenuViewController.m in Sources */,
 				0459C9B016032DA400116409 /* PRViewController2.m in Sources */,
 				0459C9B41603824B00116409 /* VFLViewController1.m in Sources */,
 				0459C9B7160492EF00116409 /* VFLViewController3.m in Sources */,
@@ -254,6 +253,7 @@
 				04C0E85A1612F88F00BF88A2 /* VFLMetricsViewController.m in Sources */,
 				04C0E85E1612FE4A00BF88A2 /* InstrumentsViewController.m in Sources */,
 				043366AB161B693100E13121 /* HugcompViewController.m in Sources */,
+				2165E4B1165A5F900088F757 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

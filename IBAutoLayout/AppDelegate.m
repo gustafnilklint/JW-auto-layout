@@ -9,7 +9,7 @@
 
 #import "AppDelegate.h"
 
-#import "MenuViewController.h"
+#import "MasterViewController.h"
 
 @implementation AppDelegate
 
@@ -20,7 +20,7 @@
     
     
     
-    MenuViewController *mc  = [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil];
+    MasterViewController *mc  = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
     
     UINavigationController *navcontroller = [[UINavigationController alloc]initWithRootViewController:mc];
     self.window.rootViewController = navcontroller;

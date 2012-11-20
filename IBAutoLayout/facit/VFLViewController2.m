@@ -54,19 +54,16 @@
     [button4 setTranslatesAutoresizingMaskIntoConstraints:NO];
     
     //set mapview to have system spacings between superview and itself at leading and trailing edges.
-    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"" options:0 metrics:nil views:views]];
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[mapView]-|" options:0 metrics:nil views:views]];
     
     //set all buttons to be spaced with system spacing horizontally. Additionally set buttons 2-4 to be equal in width to button 1. Options sets all buttons to be centre aligned on Y axis
-    
-    
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[button1]-[button2(==button1)]-[button3(==button1)]-[button4(==button1)]-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views]];
     
     //Vertically sets system spacing, then mapview, then button 1 then system spacing. Options aligns leading edges of mapview and button 1
-    
-    
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[mapView]-[button1]-|" options:NSLayoutFormatAlignAllLeading metrics:nil views:views]];
     
     //Verticall set system spacing, then mapview, then button 4 then system spacing. Options aligns trailing edges of mapview and button 1.
-    
-    
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[mapView]-[button4]-|" options:NSLayoutFormatAlignAllTrailing metrics:nil views:views]];
     
 }
 
