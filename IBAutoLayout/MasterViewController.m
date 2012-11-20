@@ -10,15 +10,11 @@
 
 #import "IBViewController1.h"
 #import "IBViewController2.h"
-#import "DbViewController1.h"
+#import "PRViewController1.h"
 #import "PRViewController2.h"
 #import "VFLViewController1.h"
 #import "VFLViewController2.h"
 #import "VFLViewController3.h"
-#import "PRViewController1.h"
-#import "VFLMetricsViewController.h"
-#import "InstrumentsViewController.h"
-#import "HugcompViewController.h"
 
 @interface MasterViewController () {
     NSArray *_sectionHeaders;
@@ -35,9 +31,9 @@
         // Custom initialization
         _sectionHeaders = @[@"Interface Builder", @"Objective C", @"Visual Format Lang"];
         
-        NSArray *section1 = @[@"Example 1", @"Example 2"];
-        NSArray *section2 = @[@"Example 3", @"Example 4"];
-        NSArray *section3 = @[@"Example 5", @"Example 6", @"Example 7"];
+        NSArray *section1 = @[@"Assignment 1", @"Assignment 2"];
+        NSArray *section2 = @[@"Assignment 3", @"Assignment 4"];
+        NSArray *section3 = @[@"Assignment 5", @"Assignment 6", @"Assignment 7"];
         _sections = @[section1, section2, section3];
     }
     return self;
