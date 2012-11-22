@@ -99,6 +99,7 @@
 				0484D2111601FF7D00AC508E /* Default-568h@2x.png */,
 				048B083315F8F2EA00C16519 /* MapKit.framework */,
 				048B081715F8E6A400C16519 /* IBAutoLayout */,
+				048B081815F8E6A400C16519 /* Supporting Files */,
 				048B081015F8E6A400C16519 /* Frameworks */,
 				048B080E15F8E6A400C16519 /* Products */,
 			);
@@ -132,21 +133,12 @@
 				2165E4BC165BCC8E0088F757 /* Assignment 5 */,
 				2165E4BD165BCCB40088F757 /* Assignment 6 */,
 				2165E4BE165BCCBA0088F757 /* Assignment 7 */,
-				04C0E8581612F88F00BF88A2 /* VFLMetricsViewController.h */,
-				04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */,
-				04C0E85C1612FE4A00BF88A2 /* InstrumentsViewController.h */,
-				04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */,
-				04A4871215FF348A00ACD612 /* DbViewController1.h */,
-				04A4871315FF348A00ACD612 /* DbViewController1.m */,
-				043366A8161B67F100E13121 /* HugcompViewController.h */,
-				043366A9161B67F100E13121 /* HugcompViewController.m */,
-				043366AA161B67F200E13121 /* HugcompViewController.xib */,
+				2165E508165E6F640088F757 /* Advanced */,
 				2165E4AE165A5F900088F757 /* MasterViewController.h */,
 				2165E4AF165A5F900088F757 /* MasterViewController.m */,
 				2165E4B0165A5F900088F757 /* MasterViewController.xib */,
 				048B082015F8E6A400C16519 /* AppDelegate.h */,
 				048B082115F8E6A400C16519 /* AppDelegate.m */,
-				048B081815F8E6A400C16519 /* Supporting Files */,
 			);
 			path = IBAutoLayout;
 			sourceTree = "<group>";
@@ -160,6 +152,7 @@
 				048B081F15F8E6A400C16519 /* IBAutoLayout-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = IBAutoLayout;
 			sourceTree = "<group>";
 		};
 		2165E4B8165BCC590088F757 /* Assignment 1 */ = {
@@ -226,6 +219,22 @@
 				0459C9B6160492EF00116409 /* VFLViewController3.m */,
 			);
 			name = "Assignment 7";
+			sourceTree = "<group>";
+		};
+		2165E508165E6F640088F757 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				04C0E8581612F88F00BF88A2 /* VFLMetricsViewController.h */,
+				04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */,
+				04C0E85C1612FE4A00BF88A2 /* InstrumentsViewController.h */,
+				04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */,
+				04A4871215FF348A00ACD612 /* DbViewController1.h */,
+				04A4871315FF348A00ACD612 /* DbViewController1.m */,
+				043366A8161B67F100E13121 /* HugcompViewController.h */,
+				043366A9161B67F100E13121 /* HugcompViewController.m */,
+				043366AA161B67F200E13121 /* HugcompViewController.xib */,
+			);
+			name = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

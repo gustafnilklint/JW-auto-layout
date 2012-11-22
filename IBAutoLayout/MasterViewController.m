@@ -29,7 +29,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        _sectionHeaders = @[@"Interface Builder", @"Objective C", @"Visual Format Lang"];
+        _sectionHeaders = @[@"Interface Builder", @"Programmatically", @"Visual Format Lang"];
         
         NSArray *section1 = @[@"Assignment 1", @"Assignment 2"];
         NSArray *section2 = @[@"Assignment 3", @"Assignment 4"];
