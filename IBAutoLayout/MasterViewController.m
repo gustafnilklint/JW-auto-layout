@@ -33,9 +33,9 @@
         _sectionHeaders = @[@"Interface Builder", @"Programmatically", @"Visual Format Lang", @"Extra"];
         
         NSArray *section1 = @[@"Assignment 1", @"Assignment 2"];
-        NSArray *section2 = @[@"Assignment 3", @"Assignment 4"];
-        NSArray *section3 = @[@"Assignment 5", @"Assignment 6", @"Assignment 7"];
-        NSArray *section4 = @[@"Assignment 8"];
+        NSArray *section2 = @[@"Assignment 3"];
+        NSArray *section3 = @[@"Assignment 4", @"Assignment 5", @"Assignment 6"];
+        NSArray *section4 = @[@"Assignment 7"];
         _sections = @[section1, section2, section3, section4];
     }
     return self;
@@ -111,8 +111,6 @@
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
             viewController = [[PRViewController1 alloc] init];
-        } else if (indexPath.row == 1) {
-            viewController = [[PRViewController2 alloc] init];
         }
     } else if (indexPath.section == 2) {
         if (indexPath.row == 0) {

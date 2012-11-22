@@ -134,11 +134,10 @@
 				2165E4B8165BCC590088F757 /* Assignment 1 */,
 				2165E4B9165BCC6F0088F757 /* Assignment 2 */,
 				2165E4BA165BCC810088F757 /* Assignment 3 */,
-				2165E4BB165BCC880088F757 /* Assignment 4 */,
-				2165E4BC165BCC8E0088F757 /* Assignment 5 */,
-				2165E4BD165BCCB40088F757 /* Assignment 6 */,
-				2165E4BE165BCCBA0088F757 /* Assignment 7 */,
-				2165E50A165E70390088F757 /* Assignment 8 */,
+				2165E4BC165BCC8E0088F757 /* Assignment 4 */,
+				2165E4BD165BCCB40088F757 /* Assignment 5 */,
+				2165E4BE165BCCBA0088F757 /* Assignment 6 */,
+				2165E50A165E70390088F757 /* Assignment 7 */,
 				2165E508165E6F640088F757 /* Advanced */,
 				2165E4AE165A5F900088F757 /* MasterViewController.h */,
 				2165E4AF165A5F900088F757 /* MasterViewController.m */,
@@ -190,46 +189,39 @@
 			name = "Assignment 3";
 			sourceTree = "<group>";
 		};
-		2165E4BB165BCC880088F757 /* Assignment 4 */ = {
-			isa = PBXGroup;
-			children = (
-				0459C9AD16032DA400116409 /* PRViewController2.h */,
-				0459C9AE16032DA400116409 /* PRViewController2.m */,
-				0459C9AF16032DA400116409 /* PRViewController2.xib */,
-			);
-			name = "Assignment 4";
-			sourceTree = "<group>";
-		};
-		2165E4BC165BCC8E0088F757 /* Assignment 5 */ = {
+		2165E4BC165BCC8E0088F757 /* Assignment 4 */ = {
 			isa = PBXGroup;
 			children = (
 				0459C9B21603824B00116409 /* VFLViewController1.h */,
 				0459C9B31603824B00116409 /* VFLViewController1.m */,
 			);
-			name = "Assignment 5";
+			name = "Assignment 4";
 			sourceTree = "<group>";
 		};
-		2165E4BD165BCCB40088F757 /* Assignment 6 */ = {
+		2165E4BD165BCCB40088F757 /* Assignment 5 */ = {
 			isa = PBXGroup;
 			children = (
 				04666E11160B1F9300192BA1 /* VFLViewController2.h */,
 				04666E12160B1F9300192BA1 /* VFLViewController2.m */,
 			);
-			name = "Assignment 6";
+			name = "Assignment 5";
 			sourceTree = "<group>";
 		};
-		2165E4BE165BCCBA0088F757 /* Assignment 7 */ = {
+		2165E4BE165BCCBA0088F757 /* Assignment 6 */ = {
 			isa = PBXGroup;
 			children = (
 				0459C9B5160492EF00116409 /* VFLViewController3.h */,
 				0459C9B6160492EF00116409 /* VFLViewController3.m */,
 			);
-			name = "Assignment 7";
+			name = "Assignment 6";
 			sourceTree = "<group>";
 		};
 		2165E508165E6F640088F757 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				0459C9AD16032DA400116409 /* PRViewController2.h */,
+				0459C9AE16032DA400116409 /* PRViewController2.m */,
+				0459C9AF16032DA400116409 /* PRViewController2.xib */,
 				04C0E8581612F88F00BF88A2 /* VFLMetricsViewController.h */,
 				04C0E8591612F88F00BF88A2 /* VFLMetricsViewController.m */,
 				04C0E85C1612FE4A00BF88A2 /* InstrumentsViewController.h */,
@@ -243,14 +235,14 @@
 			name = Advanced;
 			sourceTree = "<group>";
 		};
-		2165E50A165E70390088F757 /* Assignment 8 */ = {
+		2165E50A165E70390088F757 /* Assignment 7 */ = {
 			isa = PBXGroup;
 			children = (
 				2165E50B165E70680088F757 /* ExtraViewController.h */,
 				2165E50C165E70680088F757 /* ExtraViewController.m */,
 				2165E50D165E70680088F757 /* ExtraViewController.xib */,
 			);
-			name = "Assignment 8";
+			name = "Assignment 7";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
