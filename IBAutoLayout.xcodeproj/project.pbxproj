@@ -34,6 +34,7 @@
 		2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2165E4B0165A5F900088F757 /* MasterViewController.xib */; };
 		2165E50E165E70680088F757 /* ExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2165E50C165E70680088F757 /* ExtraViewController.m */; };
 		2165E50F165E70680088F757 /* ExtraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2165E50D165E70680088F757 /* ExtraViewController.xib */; };
+		2165E513165EB1160088F757 /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 2165E512165EB1160088F757 /* Documentation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		2165E50B165E70680088F757 /* ExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraViewController.h; sourceTree = "<group>"; };
 		2165E50C165E70680088F757 /* ExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraViewController.m; sourceTree = "<group>"; };
 		2165E50D165E70680088F757 /* ExtraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraViewController.xib; sourceTree = "<group>"; };
+		2165E512165EB1160088F757 /* Documentation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Documentation; path = ../Documentation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				2165E4B0165A5F900088F757 /* MasterViewController.xib */,
 				048B082015F8E6A400C16519 /* AppDelegate.h */,
 				048B082115F8E6A400C16519 /* AppDelegate.m */,
+				2165E512165EB1160088F757 /* Documentation */,
 			);
 			path = IBAutoLayout;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				043366AC161B693800E13121 /* HugcompViewController.xib in Resources */,
 				2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */,
 				2165E50F165E70680088F757 /* ExtraViewController.xib in Resources */,
+				2165E513165EB1160088F757 /* Documentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
