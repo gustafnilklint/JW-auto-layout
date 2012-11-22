@@ -15,6 +15,7 @@
 #import "VFLViewController1.h"
 #import "VFLViewController2.h"
 #import "VFLViewController3.h"
+#import "ExtraViewController.h"
 
 @interface MasterViewController () {
     NSArray *_sectionHeaders;
@@ -29,12 +30,13 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        _sectionHeaders = @[@"Interface Builder", @"Programmatically", @"Visual Format Lang"];
+        _sectionHeaders = @[@"Interface Builder", @"Programmatically", @"Visual Format Lang", @"Extra"];
         
         NSArray *section1 = @[@"Assignment 1", @"Assignment 2"];
         NSArray *section2 = @[@"Assignment 3", @"Assignment 4"];
         NSArray *section3 = @[@"Assignment 5", @"Assignment 6", @"Assignment 7"];
-        _sections = @[section1, section2, section3];
+        NSArray *section4 = @[@"Assignment 8"];
+        _sections = @[section1, section2, section3, section4];
     }
     return self;
 }
@@ -83,6 +85,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     // Configure the cell...
@@ -118,6 +121,10 @@
             viewController = [[VFLViewController2 alloc] init];
         } else if (indexPath.row == 2) {
             viewController = [[VFLViewController3 alloc] init];
+        }
+    } else if (indexPath.section == 3) {
+        if (indexPath.row == 0) {
+            viewController = [[ExtraViewController alloc] initWithNibName:@"ExtraViewController" bundle:nil];
         }
     }
     

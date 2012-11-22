@@ -32,6 +32,8 @@
 		04C0E85E1612FE4A00BF88A2 /* InstrumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0E85D1612FE4A00BF88A2 /* InstrumentsViewController.m */; };
 		2165E4B1165A5F900088F757 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2165E4AF165A5F900088F757 /* MasterViewController.m */; };
 		2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2165E4B0165A5F900088F757 /* MasterViewController.xib */; };
+		2165E50E165E70680088F757 /* ExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2165E50C165E70680088F757 /* ExtraViewController.m */; };
+		2165E50F165E70680088F757 /* ExtraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2165E50D165E70680088F757 /* ExtraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,9 @@
 		2165E4AE165A5F900088F757 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		2165E4AF165A5F900088F757 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		2165E4B0165A5F900088F757 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		2165E50B165E70680088F757 /* ExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraViewController.h; sourceTree = "<group>"; };
+		2165E50C165E70680088F757 /* ExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraViewController.m; sourceTree = "<group>"; };
+		2165E50D165E70680088F757 /* ExtraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,7 @@
 				2165E4BC165BCC8E0088F757 /* Assignment 5 */,
 				2165E4BD165BCCB40088F757 /* Assignment 6 */,
 				2165E4BE165BCCBA0088F757 /* Assignment 7 */,
+				2165E50A165E70390088F757 /* Assignment 8 */,
 				2165E508165E6F640088F757 /* Advanced */,
 				2165E4AE165A5F900088F757 /* MasterViewController.h */,
 				2165E4AF165A5F900088F757 /* MasterViewController.m */,
@@ -237,6 +243,16 @@
 			name = Advanced;
 			sourceTree = "<group>";
 		};
+		2165E50A165E70390088F757 /* Assignment 8 */ = {
+			isa = PBXGroup;
+			children = (
+				2165E50B165E70680088F757 /* ExtraViewController.h */,
+				2165E50C165E70680088F757 /* ExtraViewController.m */,
+				2165E50D165E70680088F757 /* ExtraViewController.xib */,
+			);
+			name = "Assignment 8";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +311,7 @@
 				0459C9B116032DA400116409 /* PRViewController2.xib in Resources */,
 				043366AC161B693800E13121 /* HugcompViewController.xib in Resources */,
 				2165E4B2165A5F900088F757 /* MasterViewController.xib in Resources */,
+				2165E50F165E70680088F757 /* ExtraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +336,7 @@
 				04C0E85E1612FE4A00BF88A2 /* InstrumentsViewController.m in Sources */,
 				043366AB161B693100E13121 /* HugcompViewController.m in Sources */,
 				2165E4B1165A5F900088F757 /* MasterViewController.m in Sources */,
+				2165E50E165E70680088F757 /* ExtraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
