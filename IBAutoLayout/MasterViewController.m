@@ -34,8 +34,8 @@
         
         NSArray *section1 = @[@"Assignment 1", @"Assignment 2"];
         NSArray *section2 = @[@"Assignment 3"];
-        NSArray *section3 = @[@"Assignment 4", @"Assignment 5", @"Assignment 6"];
-        NSArray *section4 = @[@"Assignment 7"];
+        NSArray *section3 = @[@"Assignment 4", @"Assignment 5"];
+        NSArray *section4 = @[@"Assignment 6"];
         _sections = @[section1, section2, section3, section4];
     }
     return self;
